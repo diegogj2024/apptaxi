@@ -8,11 +8,11 @@
         <div>Pagar reservas</div>
     </div>
     <div class="color">  
-        <div>Identificación</div>
+        <div>Identificación:</div>
         <input size="40">
-        <div>Número de cuenta</div>
+        <div>Número de cuenta:</div>
         <input size="40">
-        <div>Valor</div>
+        <div>Valor:</div>
         <input size="40">
     </div>
     <hr>
