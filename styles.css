@@ -103,6 +103,42 @@ button[id="id2"]:hover{
             width: 100;
             height: max-content;
         }
+/*ingresa_cliente*/
+        .ola {
+            background-color: rgba(188, 179, 179, 0.43);
+            width: 200px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: lightyellow;
+        }
+
+        #fondo {
+            background-color: rgba(82, 134, 248, 1);
+        }
+
+        #cut {
+            padding: 20%;
+            position: relative;
+            left: 250px;
+        }
+
+        #lol {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #sum {
+            background-color: aqua;
+            border-radius: 20px;
+            width: 100%;
+            height: 30px;
+        }
+
+        .spa {
+            display: flex;
+            justify-content: space-around;
+        }
 /*pedidos*/
 #id {
     background-color: rgba(82, 134, 248, 1);
