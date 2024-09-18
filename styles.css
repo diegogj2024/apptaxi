@@ -51,6 +51,10 @@ button[id="id2"]:hover{
     margin-top: 15px;
 }
 
+.lugar_memb{
+    align-items: flex-start;
+}
+
 /*index*/
 
 .a{
