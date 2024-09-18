@@ -52,5 +52,6 @@ button[id="id2"]:hover{
 }
 
 .ubicacion_memb{
-    align-items: flex-start;
+    justify-content:space-around;
+    
 }
