@@ -53,5 +53,6 @@ button[id="id2"]:hover{
 
 .ubicacion_memb{
     justify-content:space-around;
+    width: 600px;
     
 }
