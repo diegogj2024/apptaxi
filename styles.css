@@ -51,46 +51,58 @@ button[id="id2"]:hover{
 }
 
 /*index*/
+        .a{
+            background-color: rgba(82, 134, 248, 1);
+            padding: 7%;
+            margin: 10px;            
+        }
+        
+        .texto{
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            padding: 2%;
+            margin: 5%;
+            background-color: lightskyblue;
+            color: yellow;
+        }
 
-.a{
-    background-color: rgba(82, 134, 248, 1);
-    padding: 7%;
-    margin: 10px;            
-}
+        .boton{
+            background-color: blue;
+            color: yellow;
+            padding: 2%;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+        }
+        .boton:hover{
+            background-color: rgb(164, 15, 164);
+        }
 
-#texto{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    margin: 5%;
-    background-color: lightskyblue;
-    color: yellow;
-}
+        .go{
+            display: flex;
+            justify-content: center;
+            padding: 1%;
+            margin: 2%;
+        }
 
-.boton{
-    background-color: blue;
-    color: yellow;
-    padding: 2%;
-    margin: 2px;
-    display: flex;
-    justify-content: center;
-}
-.boton:hover{
-    background-color: rgb(164, 15, 164);
-}
-
-.go{
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    margin: 2%;
-}
-
-#gou{
-    font-family: 'Courier New', Courier, monospace;
-    color: yellow;
-}
+        #gou{
+            font-family: 'Courier New', Courier, monospace;
+            color: yellow;
+        }
+        
+        .ti{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 2%;
+            position: absolute; top: 300px;
+        }
+        .tu{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 2%;
+            position: absolute; left: 1000px; top: 300px;
+            width: 100;
+            height: max-content;
+        }
 /*pedidos*/
 #id {
     background-color: rgba(82, 134, 248, 1);
