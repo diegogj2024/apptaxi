@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="styles1.css">
+            <body class="a">
+        <div class="a">
+            <div class="texto">Tele-Taxi</div>
+            <body>
+                <div class="go">
+                    <a href="ingresa_cliente.html">
+                        <button class="boton" id="gou">Ingresar Datos</button>
+                    </a>
+                </div>
+                <div class="go">
+                    <a href="pedidos.html">
+                    <button class="boton" id="gou">Ingresar Pedidos</button>
+                    </a>
+                </div>
+                <div class="go">
+                    <a href="pagos.html">
+                        <button class="boton" id="gou">Consultar pago</button>
+                    </a>
+                </div>
+                <div class="ti">
+                    <div>T</div>
+                    <div>E</div>
+                    <div>L</div>
+                    <div>E</div>
+                    <div>-</div>
+                    <div>T</div>
+                    <div>A</div>
+                    <div>X</div>
+                    <div>I</div>
+                </div>
+                <div class="tu">
+                    <div>T</div>
+                    <div>E</div>
+                    <div>L</div>
+                    <div>E</div>
+                    <div>-</div>
+                    <div>T</div>
+                    <div>A</div>
+                    <div>X</div>
+                    <div>I</div>
+                    </div>
+            </body>
+        </div>
+    </head>
+</html>
