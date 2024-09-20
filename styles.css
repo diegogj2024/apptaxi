@@ -45,6 +45,7 @@ input {
     padding: 10px;
     margin-bottom: 15px;
     font-size: 18px;
+    border-radius:10px;
 }
 
 button[id="id2"] {
@@ -73,6 +74,63 @@ button[id="id2"]:hover {
     align-items: center;
     width: 50px;
 }
- .color{
+.color{
     background-color: rgba(255, 255, 255, 0.571);
  }
+/*reservas*/
+
+#contenedor1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.acomodar_input{
+    background-color: rgba(82, 134, 248, 1);
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius:10px;
+}
+#posicion3div img{
+    width: 400px; 
+    height: auto;
+    margin-right: 20px;
+}
+.informacion_usuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion_usuario p {
+    margin: 5px;
+}
+
+#acomodarbotones{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+#diseño_botones{
+    border-radius: 10px;
+    background-color: rgba(0, 212, 245, 1);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+#diseño_botones:hover{
+    background-color: rgba(0, 212, 245, 0.463);
+}
