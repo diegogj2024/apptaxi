@@ -98,7 +98,7 @@ button[id="id2"]:hover {
     border-radius: 10px;
 }
 
-input[type="text"]{
+#inputtamaño{
     width: 700px;
     padding: 10px;
     margin-bottom: 15px;
