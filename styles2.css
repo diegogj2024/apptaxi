@@ -51,5 +51,5 @@
             height: 50px;
             width: 100px; 
         }
-        .boton:hover{
+        button:hover{
             background-color:rgba(0, 212, 245, 0.463);
