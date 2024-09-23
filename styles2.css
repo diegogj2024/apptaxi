@@ -46,8 +46,10 @@
             margin: 90px;
         }
         .boton button {
-            background-color: #00fff0;
+            background-color:rgba(0, 212, 245, 1);
             margin: 0 100px;
             height: 50px;
             width: 100px; 
         }
+        .boton:hover{
+            background-color:rgba(0, 212, 245, 0.463);
