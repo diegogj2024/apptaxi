@@ -149,7 +149,7 @@ select{
     width: 300px;
     border-radius: 10px;
 }
-input[type="text"]{
+textarea[id="comentario"]{
     width: 280px;
-    height: 2px;
+    height: 20px;
 }

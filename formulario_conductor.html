@@ -20,36 +20,77 @@
             <div id="id">
                 <form action="respuesta.html" method="get" name="cositas">
                     <div class="fondito">
-                        <label for="opciones">¿Cómo calificarías la puntualidad del conductor?</label>
-                        <select id="opciones" name="opciones" required>
-                        <option value="seleccionar respuesta">seleccionar respuesta</option>
-                        <option value="5 estrellas">
-                            ⭐​⭐​⭐​⭐​⭐​</option>
-                        <option value="4 estrellas">⭐​⭐​
-                            ⭐​⭐​​​</option>
-                        <option value="3 estrellas">
-                            ⭐​⭐​⭐​​​</option>
-                        <option value="2 estrellas">
-                            ⭐​⭐​​​​</option>
-                        <option value="1 estrellas">
-                            ⭐​​​​</option>
-                        </select>
-                        <label for="respetuoso">El conductor fue cortes y respetuoso</label>
-                        <select name="opcines2" id="respetuoso">
-                            <option value="seleccionar respuesta">seleccionar respuesta</option>
-                            <option value="si">si</option>
-                            <option value="no"></option>
-                        </select>
-                        <input type="text" placeholder="ingrese su comentario">
+
+                        <!-- Grupo de preguntas sobre el conductor -->
+                        <fieldset>
+                            <legend>Evaluación del conductor</legend>
+
+                            <!-- Pregunta sobre puntualidad -->
+                            <label for="opciones">¿Cómo calificarías la puntualidad del conductor?</label>
+                            <select id="opciones" name="opciones" required>
+                                <option value="" disabled selected>Seleccionar respuesta</option>
+                                <option value="5 estrellas">⭐​⭐​⭐​⭐​⭐​</option>
+                                <option value="4 estrellas">⭐​⭐​⭐​⭐​</option>
+                                <option value="3 estrellas">⭐​⭐​⭐​</option>
+                                <option value="2 estrellas">⭐​⭐​</option>
+                                <option value="1 estrellas">⭐​</option>
+                            </select><br>
+
+                            <!-- Pregunta sobre cortesía y respeto -->
+                            <label for="respetuoso">¿El conductor fue cortés y respetuoso?</label>
+                            <select name="opciones2" id="respetuoso" required>
+                                <option value="" disabled selected>Seleccionar respuesta</option>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select><br>
+
+                            <label for="seguridad">¿Te sentiste seguro durante el trayecto?</label>
+                            <select name="opciones3" id="seguridad">
+                            <option value="" disabled selected>Seleccionar respuesta</option>
+                            <option value="Muy seguro">Muy seguro</option>
+                            <option value="seguro">seguro</option>
+                            <option value="inseguro">inseguro</option>
+                            <option value="muy inseguro">muy inseguro</option>
+                            </select><br>
+
+                            <label for="actitud">¿Cómo describirías la actitud del conductor?</label>
+                            <select name="opciones4" id="actitud">
+                            <option value="" disabled selected>Seleccionar respuesta</option>
+                            <option value="Muy amable">Muy amable</option>
+                            <option value="amable">amable</option>
+                            <option value="Neutral">Neutral</option>
+                            <option value="Desagradable">Desagradable</option>
+                            </select><br>
+
+                            <label for="ruta">¿El conductor conocía bien la ruta?</label>
+                            <select name="opciones5" id="ruta">
+                            <option value="" disabled selected>Seleccionar respuesta</option>
+                            <option value="Muy bien">Muy bien</option>
+                            <option value="Bien">Bien</option>
+                            <option value=" Regular"> Regular</option>
+                            <option value="Dependía mucho del GPS"><br>Dependía mucho del GPS</option>
+                            </select><br>
+
+                        </fieldset>
+
+                        <!-- Área de comentarios adicionales -->
+                        <fieldset>
+                            <legend>Comentarios adicionales</legend>
+                            <label for="comentario">Comentarios:</label>
+                            <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Ingresa tus comentarios acá"></textarea>
+                        </fieldset>
+
+                        <!-- Botones de acción -->
                         <div id="botonera">
                             <a href="index.html">
-                            <button id="id2">Cancelar</button>
+                                <button type="button" id="id2">Cancelar</button>
                             </a>
                             <input type="submit" name="aceptar" value="Aceptar">
                         </div>
                     </div>
                 </form>
             </div>
+
             <div class="ubicacion_memb">
                 <p>T</p>
                 <p>E</p>
