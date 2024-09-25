@@ -11,19 +11,26 @@
                 </div>
         <div>
             <label name="preg" for="question">¿Es fácil de usar la aplicación?</label>
-            <input type="text" id="question" required>
+            <input type="text" id="question" placeholder="ingrese respuesta" required>
         </div>
         <div>
             <label for="guarda">¿Visualmente que opina?</label>
-            <input type="text" id="guarda" required>
+            <input type="text" id="guarda" placeholder="ingrese respuesta" required>
         </div>
         <div>
-            <label for="numero">¿Si tuviera que calificar, que puntaje del 1 al 10 le podnría?</label>
-            <input type="number" id="numero" required>
+            <label for="numero">¿Si tuviera que calificar, que puntaje del 1 al 5 le podnría?</label>
+            <select required>
+                <option></option>
+                <option id="numero">⭐️⭐️⭐️⭐️⭐️</option>
+                <option id="numero">⭐️⭐️⭐️⭐️</option>
+                <option id="numero">⭐️⭐️⭐️</option>
+                <option id="numero">⭐️⭐️</option>
+                <option id="numero">⭐️</option>
+            </select>
         </div>
         <div>
             <label for="modificar">¿Qué modificaría de la app a su gusto?</label>
-            <input type="text" id="modificar" required>
+            <input type="text" id="modificar" placeholder="ingrese respuesta" required>
         </div>
         <div id="botones">
             <a href="index.html">
