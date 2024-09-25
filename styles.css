@@ -144,3 +144,12 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: rgba(0, 212, 245, 0.463);
 }
+/*formulacio_conductor*/
+select{
+    width: 300px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    width: 280px;
+    height: 2px;
+}
