@@ -113,3 +113,19 @@
 }
 
 /***formulario_apps***/
+
+.fondo_apps{
+    background-color: rgba(188, 179, 179, 0.43);
+    padding: 7%;
+    margin: 10px;
+}
+
+.contenedor_apps{
+    background-color: rgba(188, 179, 179, 0.43);
+    color: aliceblue;
+    width: 100px;
+}
+
+#texto_app{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
