@@ -127,7 +127,6 @@ button[id="id2"]:hover {
 #diseño_botones{
     border-radius: 10px;
     background-color: rgba(0, 212, 245, 1);
-    border-radius: 10px;
     width: 100px;
     height: 30px;
 }
@@ -135,3 +134,13 @@ button[id="id2"]:hover {
     background-color: rgba(0, 212, 245, 0.463);
 }
 /*login*/
+input[type="submit"]{
+    background-color: rgba(0, 212, 245, 1);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(0, 212, 245, 0.463);
+}
