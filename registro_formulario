@@ -7,23 +7,23 @@
                     <div>Tele-Taxi</div>
                 </div>
                 <div class="boton1">
-                    <a href="ingresa_cliente.html">
-                        <button class="boton" id="boton2">Ingresar Datos</button>
+                    <a href="login.html">
+                        <button class="boton_app" id="boton2">Login</button>
                     </a>
                 </div>
                 <div class="boton1">
-                    <a href="pedidos.html">
-                    <button class="boton" id="boton2">Ingresar Pedidos</button>
+                    <a href="formulario_apps.html">
+                    <button class="boton_app" id="boton2">Encuesta</button>
                     </a>
                 </div>
                 <div class="boton1">
-                    <a href="consultar_reserva.html">
-                        <button class="boton" id="boton2">Consultar reserva</button>
+                    <a href="servicio_app.html">
+                        <button class="boton" id="boton2">Servicios apps</button>
                     </a>
                 </div>
                 <div class="boton1">
-                    <a href="registro_formulario.html">
-                        <button class="boton" id="boton2">Encuesta formularios</button>
+                    <a href="formulario_conductor.html">
+                        <button class="boton_app" id="boton2">Conductor</button>
                     </a>
                 </div>
                 </div>
