@@ -6,20 +6,27 @@
     <div class="contenedor_apps" id="orden">
             <form action="respuesta.html" method="get" id="texto_app">
                 <fieldset>
-                <div>
+                    <div>
                         <label for="save">¿Qué le parece la Apps?</label>
                         <input type="text" id="save" placeholder="ingrese respuesta" required>
-                    </div><br>
+                    </div>
+                    <br>
                     <div>
                         <label name="preg" for="question">¿Es fácil de usar la aplicación?</label>
-                        <input type="text" id="question" placeholder="ingrese respuesta" required>
-                    </div><br>
+                        <select required>
+                            <option disabled selected>Seleccione respuesta</option>
+                            <option>Si</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <br>
                     <div>
                         <label for="guarda">¿Visualmente que opina?</label>
-                        <input type="text" id="guarda" placeholder="ingrese respuesta" required>
-                    </div><br>
+                        <input type="text" id="guarda" placeholder="Danos tú opinión" required>
+                    </div>
+                    <br>
                     <div>
-                        <label for="numero">¿Si tuviera que calificar, que puntaje del 1 al 5 le podnría?</label>
+                        <label for="numero">¿Si tuviera que calificar, que puntaje del 1 al 5 le pondría?</label>
                         <select required>
                             <option disabled selected>Seleccione calificación</option>
                             <option id="numero">⭐️⭐️⭐️⭐️⭐️</option>
