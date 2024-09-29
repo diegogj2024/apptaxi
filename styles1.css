@@ -114,7 +114,7 @@
    color: black;
 }
 
-/***formulario_apps***/
+/***registro_formulario/formulario_app***/
 
 .fondo_apps{
     background-color: rgba(188, 179, 179, 0.43);
@@ -144,4 +144,39 @@
 
 .boton_app:hover{
     background-color: purple;
+}
+
+.descripcion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(0, 255, 191), rgb(0, 255, 225)); 
+}
+
+.fondo_app{
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.espacio{
+    margin-bottom: 30px;
+}
+#espacio2{
+    margin-bottom: 60px;
+}
+
+.butonapp button{
+    background-color: #00fff0;
+    margin: 30px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+#butonapp:hover{
+    background-color: lightskyblue;
 }
